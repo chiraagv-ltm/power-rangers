@@ -17,7 +17,7 @@ function new_image(get_image)
         block_image_object.scaleToHeight(block_image_height);
         block_image_object.set({
             top:block_y,
-            left:black_x
+            left:block_x
         });
         canvas.add(block_image_object);
     });
@@ -30,7 +30,7 @@ function my_keydown(e)
 keyPressed = e.keyCode;
 console.log(keyPressed);
 
-	if(keyPressed == '72') 
+	if(keyPressed == '82') 
 	{
 		new_image("rr1.png")
 		console.log("r")
